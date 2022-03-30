@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    
+}
+body{
+
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("../images/fre-sonneveld-q6n8nIrDQHE-unsplash.jpg");
+                       font-family: 'Dosis', sans-serif;
+                       overflow:hidden;
+                       
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.header_menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid red; */
+    background-color: rgba(12, 12, 12, 0.712);
+    
+}
+
+.logo{
+    width: 45%;
+    height: 100%;
+    /* padding: 5px; */
+    /* border: 1px solid pink; */
+    display: flex;
+    text-align: center;
+    /* justify-content:center; */
+    margin-left: 5px;
+
+}
+
+.company_name{
+    /* align-items: center; */
+    /* text-align: center; */
+    font-weight: bold;
+    color: rgb(245, 134, 7);
+    margin:14px 0 0 0;
+    /* text-transform: uppercase; */
+    letter-spacing: .3rem;
+    font-size: 28px;
+}
+.menu_list{
+    width: 55%;
+    padding: 40px;
+    /* border: 1px solid yellow; */
+    text-align: right;
+    display: flex;
+    /* align-items; */
+    justify-content: flex-end;
+    /* flex-direction: row; */
+}
+.about a{
+    text-decoration: none;
+    text-transform: uppercase;
+    /* border: 1px solid white; */
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    transition:all .2s linear;
+
+}
+.contact a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+    transition:all .2s linear;
+}
+.about a:hover{
+    color: rgb(245, 134, 7);
+}
+.contact a:hover{
+    color: rgb(245, 134, 7);
+}
+
+.foot{
+    /* background-color:#ffffff ; */
+    background-color: rgba(12, 12, 12, 0.712);
+    position: absolute;
+    color: aliceblue;
+    bottom:0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    text-align: center;
+    padding: 60px 32px;
+    width: 370px;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,.75);
+
+}
+
+.header{
+    color:aliceblue;
+    font-size: 33px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+}
+
+.field{
+    position:relative;
+    height:45px;
+    width: 100%;
+    display: flex;
+    background: rgba(255,255,255,.94);
+}
+
+.field span{
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+}
+
+.field input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #222;
+    font-size: 16px ;
+}
+
+.space{
+    margin-top: 15px;
+}
+
+.show{
+    position: absolute;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(82, 47, 180);
+    display: none;
+    cursor: pointer;
+}
+.pass-key:valid ~ .show{
+    display:block;
+}
+
+.field input[type="submit"]{
+    /* margin: 0px 20px; */
+   
+    font-size: 18px;
+    /* padding: 15px 25px; */
+    /* border-radius: 4rem; */
+ 
+    color: white;
+    /* text-decoration:  none; */
+  
+    background: #CE4310;
+    letter-spacing: 1px;
+    font-weight: 600;
+    background: linear-gradient(to right, #CE4310 0%, #ccb34e 100%);
+    cursor: pointer;
+    /* transition: all 0.2s linear; */
+}
+
+.signUp{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.signUp a{
+    color:#3498db;
+    text-decoration: none;
+}
+.signUp a:hover{
+    text-decoration: underline;
+}

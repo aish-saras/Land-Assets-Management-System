@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+   
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("../images/fre-sonneveld-q6n8nIrDQHE-unsplash.jpg");
+                       font-family: 'Dosis', sans-serif;
+                       overflow:hidden;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.header_menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    /* border: 1px solid red; */
+    background-color: rgba(12, 12, 12, 0.712);
+    
+}
+
+.logo{
+    width: 60%;
+    height: 100%;
+    /* padding: 5px; */
+    /* border: 1px solid pink; */
+    display: flex;
+    text-align: center;
+    margin-left: 5px;
+    /* justify-content:center; */
+
+}
+
+.company_name{
+    /* align-items: center; */
+    /* text-align: center; */
+    font-weight: bold;
+    color: rgb(245, 134, 7);
+    margin:14px 0 0 0;
+    /* text-transform: uppercase; */
+    letter-spacing: .3rem;
+    font-size: 28px;
+}
+.menu_list{
+    width: 55%;
+    padding: 40px;
+    /* border: 1px solid yellow; */
+    text-align: right;
+    display: flex;
+    /* align-items; */
+    justify-content: flex-end;
+    /* flex-direction: row; */
+}
+.about a{
+    text-decoration: none;
+    text-transform: uppercase;
+    /* border: 1px solid white; */
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    transition:all .2s linear;
+
+}
+.contact a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+    transition:all .2s linear;
+}
+.about a:hover{
+    color: rgb(245, 134, 7);
+}
+.contact a:hover{
+    color: rgb(245, 134, 7);
+}
+
+.heading{
+    /* text-transform: uppercase; */
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /* border: 1px solid red; */
+
+}
+.welcome{
+    text-transform: uppercase;
+    color:aliceblue;
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 0.3rem;
+    margin-bottom: 100px;
+}
+.heading a{
+    
+    margin: 0px 20px;
+   
+    font-size: 25px;
+    padding: 15px 25px;
+    border-radius: 4rem;
+    /* border: 1px solid red; */
+    color: white;
+    text-decoration:  none;
+    /* font-family: 'Dosis', sans-serif; */
+    background: #CE4310;
+    /* background: -moz-linear-gradient(left, #CE4310 0%, #C5AA41 100%);
+    background: -webkit-linear-gradient(left, #CE4310 0%, #C5AA41 100%); */
+    background: linear-gradient(to right, #CE4310 0%, #ccb34e 100%);
+    transition: all 0.2s linear;
+    /* transition-duration: 2s; */
+}
+
+.heading a:hover{
+    background: transparent;
+    /* opacity: 0.5; */
+    border: 1px solid rgb(245, 134, 7);;
+
+
+}
+
+.foot{
+    /* background-color:#ffffff ; */
+    background-color: rgba(12, 12, 12, 0.712);
+    position: absolute;
+    color: aliceblue;
+    bottom:0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+/* .heading button{
+    margin: 50px 20px;
+    height:4rem;
+    width: 11rem;
+    font-size: 22px;
+    padding: 5px 5px;
+    border-radius: 4rem;
+    border: 1px solid red;
+    
+} */
+
+/* .heading button:hover{
+    cursor: pointer;
+} */
+
+
+
+/* body{
+    background-color: rgb(142, 142, 238);
+} */
+/* #i1{
+    background-color: burlywood;
+    border: 2px solid black;
+    color: black;
+    width: 200px;
+    margin-top: 300px;
+    margin-left: 500px;
+}
+#i2{
+    background-color: burlywood;
+    border: 2px solid black;
+    color: black;
+    width: 200px;
+}
+#b{
+    margin-top: 200px;
+    margin-left: 500px;
+}
+.btn{
+    margin-top:0px;
+    margin-left: 600px;
+}
+.btn:hover{
+    color: chocolate;
+}
+#u1{
+    background-color: burlywood;
+    border: 2px solid black;
+    width: 200px;
+    margin-top: 300px;
+    margin-left: 500px;
+}
+#u2{
+    background-color: burlywood;
+    border: 2px solid black;
+    width: 200px;
+}
+#sgnin{
+    margin-top: 200px;
+    margin-left: 500px;
+}
+#sgnup{
+    margin-top: 180px;
+    margin-left: 500px;
+} */
